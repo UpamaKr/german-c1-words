@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Rubik";
+  color: #444;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  text-align: justify;
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+.display {
+  display: flex;
+  font-size: 1.8rem;
+  min-height: 500px;
+  background-color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+  flex-direction: column; /* Stack the items vertically */
+  width: 800px; /* Set the width */
+  margin: 0 auto; /* Center the section horizontally */
+}
+
+.word {
+  height: 100px; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 798px) {
+  .display {
+    width: 100%; /* Set the width to 100% for smaller screens */
+  }
+}
